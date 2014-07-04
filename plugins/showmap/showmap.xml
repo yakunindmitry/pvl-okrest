@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension group="content" method="upgrade" type="plugin" version="1.0">
+	<name>Content - Show yandex map</name>
+	<author>Yakunin Dmitry</author>
+	<creationDate>Dec 26, 2013</creationDate>
+	<copyright>Copyright 2013 showmap</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>yakunin_dmitry@irand.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<downloadUrl></downloadUrl>
+	<description>SHOWMAP_DESCRIPTION</description>
+	<files>
+		<filename plugin="showmap">showmap.php</filename>
+		<filename>showmap.js</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_content_showmap.ini</language>
+		<language tag="en-GB">en-GB.plg_content_showmap.sys.ini</language>
+		<language tag="ru-RU">ru-RU.plg_content_showmap.ini</language>
+		<language tag="ru-RU">ru-RU.plg_content_showmap.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field default="center" description="SHOWMAP_ALIGNMENT_DESCRIPTION" label="SHOWMAP_ALIGNMENT" name="alignment" type="list">
+					<option value="none">SHOWMAP_ALIGNMENT_NONE</option>
+					<option value="center">SHOWMAP_ALIGNMENT_CENTER</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

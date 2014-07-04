@@ -1,0 +1,6 @@
+<hr id="system-readmore" />
+<div align="center">
+
+<h2>Лес Залесье</h2>
+{gallery layout=flow maxcount=6}gallery/les_zalesie{/gallery}
+{showmap}55.569,43.125,12,Лес Залесье, Фото леса,les-zalese{/showmap}

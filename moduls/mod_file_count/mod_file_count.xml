@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>File Counter</name>
+	<author>DmitryY</author>
+	<version>1.0.0</version>
+	<description>A simple FileCounter module.</description>
+	<files>
+		<filename>mod_file_count.xml</filename>
+		<filename module="mod_file_count">mod_file_count.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.mod_file_count.ini</language>
+		<language tag="en-GB">en-GB.mod_file_count.sys.ini</language>
+		<language tag="ru-RU">ru-RU.mod_file_count.ini</language>
+		<language tag="ru-RU">ru-RU.mod_file_count.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="type"
+					type="text"
+					default="jpg"
+					label="MOD_FILE_COUNT_FIELD_TYPE_LABEL"
+					description="MOD_FILE_COUNT_FIELD_TYPE_DESC" />
+				<field
+					name="folder"
+					type="text"
+					label="MOD_FILE_COUNT_FIELD_FOLDER_LABEL"
+					description="MOD_FILE_COUNT_FIELD_FOLDER_DESC" />
+				<field
+					name="link"
+					type="text"
+					label="MOD_FILE_COUNT_FIELD_LINK_LABEL"
+					description="MOD_FILE_COUNT_FIELD_LINK_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

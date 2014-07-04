@@ -1,0 +1,15 @@
+<div  align="center">
+<span id='ontext1' style='display: inline;'>
+<a href="javascript:on('1');">Показать на карте</a>
+</span>  
+<span id='offtext1' style='display: none;'>
+<a href="javascript:off('1');">Скрыть карту</a>
+</span>
+<div>
+
+<!-- Скрытый текст -->
+<div id='text1' style='display: none;'>  
+
+<div id="map" style="width: 710px; height: 700px;"> </div>
+
+</div>
